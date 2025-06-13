@@ -188,6 +188,165 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://rulebreakerjerry.github.io/2025/06/13/AI-%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+      <meta itemprop="name" content="RuleBreakerJerry">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2025/06/13/AI-%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">AI 入门笔记</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2025-06-13 12:00:00 / Modified: 11:47:41" itemprop="dateCreated datePublished" datetime="2025-06-13T12:00:00+08:00">2025-06-13</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">学习笔记</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="一、深度学习框架（Deep-Learning-Frameworks）"><a href="#一、深度学习框架（Deep-Learning-Frameworks）" class="headerlink" title="一、深度学习框架（Deep Learning Frameworks）"></a>一、深度学习框架（Deep Learning Frameworks）</h2><h3 id="1-PyTorch"><a href="#1-PyTorch" class="headerlink" title="1. PyTorch"></a>1. PyTorch</h3><ul>
+<li>编程语言：Python</li>
+<li>特点：<ul>
+<li>写法灵活，贴近 Python 语法</li>
+<li>动态图机制，调试更友好</li>
+<li>科研界主流框架，论文复现多</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-TensorFlow"><a href="#2-TensorFlow" class="headerlink" title="2. TensorFlow"></a>2. TensorFlow</h3><ul>
+<li>编程语言：Python</li>
+<li>特点：<ul>
+<li>静态图结构，更适合部署</li>
+<li>工业级优化好，适合大规模应用</li>
+<li>可与 Keras 配合使用，提高开发效率</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="二、神经网络结构（Neural-Network-Architectures）"><a href="#二、神经网络结构（Neural-Network-Architectures）" class="headerlink" title="二、神经网络结构（Neural Network Architectures）"></a>二、神经网络结构（Neural Network Architectures）</h2><h3 id="1-CNN（卷积神经网络）"><a href="#1-CNN（卷积神经网络）" class="headerlink" title="1. CNN（卷积神经网络）"></a>1. CNN（卷积神经网络）</h3><ul>
+<li>全称：Convolutional Neural Network</li>
+<li>主要用途：图像分类、目标检测、视觉识别</li>
+<li>特点：<ul>
+<li>局部感受野 + 权重共享</li>
+<li>能提取图像中边缘、纹理等空间特征</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-RNN（循环神经网络）"><a href="#2-RNN（循环神经网络）" class="headerlink" title="2. RNN（循环神经网络）"></a>2. RNN（循环神经网络）</h3><ul>
+<li>全称：Recurrent Neural Network</li>
+<li>主要用途：时间序列预测、语音识别、传统NLP任务</li>
+<li>特点：<ul>
+<li>处理序列数据，前一个时刻会影响当前输出</li>
+<li>可建模时间依赖关系</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-Transformer"><a href="#3-Transformer" class="headerlink" title="3. Transformer"></a>3. Transformer</h3><ul>
+<li>主要用途：文本生成、图像描述、多模态任务</li>
+<li>特点：<ul>
+<li>自注意力机制（Self-Attention）建模全局信息</li>
+<li>高度并行化，训练效率高</li>
+<li>是 GPT、BERT、DALL·E、Stable Diffusion 等模型的基础结构</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="三、生成模型（Generative-Models）"><a href="#三、生成模型（Generative-Models）" class="headerlink" title="三、生成模型（Generative Models）"></a>三、生成模型（Generative Models）</h2><h3 id="1-VAE（变分自编码器）"><a href="#1-VAE（变分自编码器）" class="headerlink" title="1. VAE（变分自编码器）"></a>1. VAE（变分自编码器）</h3><ul>
+<li>全称：Variational AutoEncoder</li>
+<li>原理：编码–解码结构中加入高斯噪声，实现多样性生成</li>
+<li>特点：<ul>
+<li>训练稳定</li>
+<li>生成图像清晰度较低</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-GAN（生成对抗网络）"><a href="#2-GAN（生成对抗网络）" class="headerlink" title="2. GAN（生成对抗网络）"></a>2. GAN（生成对抗网络）</h3><ul>
+<li>全称：Generative Adversarial Network</li>
+<li>原理：生成器与判别器博弈，提升生成图像的真实度</li>
+<li>特点：<ul>
+<li>生成图像非常逼真</li>
+<li>训练过程容易不稳定</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-Diffusion-Model（扩散模型）"><a href="#3-Diffusion-Model（扩散模型）" class="headerlink" title="3. Diffusion Model（扩散模型）"></a>3. Diffusion Model（扩散模型）</h3><ul>
+<li>原理：从噪声逐步反向恢复图像（去噪过程）</li>
+<li>特点：<ul>
+<li>稳定性好</li>
+<li>生成质量高（主流AI绘画模型的核心）</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="四、知识层次结构图"><a href="#四、知识层次结构图" class="headerlink" title="四、知识层次结构图"></a>四、知识层次结构图</h2><pre><code class="text">人工智能（AI）
+│
+├── 机器学习（Machine Learning）
+│   └── 深度学习（Deep Learning）
+│       ├── 框架
+│       │   ├── PyTorch
+│       │   └── TensorFlow
+│       │
+│       ├── 神经网络结构
+│       │   ├── CNN（图像方向）
+│       │   ├── RNN（序列方向）
+│       │   └── Transformer
+│       │
+│       └── 生成模型（Generative Models）
+│           ├── VAE
+│           ├── GAN
+│           └── Diffusion
+</code></pre>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="https://rulebreakerjerry.github.io/2025/06/05/Python-%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -726,7 +885,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -739,7 +898,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
