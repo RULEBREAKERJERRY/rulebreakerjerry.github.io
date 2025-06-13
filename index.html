@@ -378,7 +378,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2025-06-09 10:55:21" itemprop="dateModified" datetime="2025-06-09T10:55:21+08:00">2025-06-09</time>
+                <time title="Modified: 2025-06-13 11:56:45" itemprop="dateModified" datetime="2025-06-13T11:56:45+08:00">2025-06-13</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -401,7 +401,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="算术运算符"><a href="#算术运算符" class="headerlink" title="算术运算符"></a>算术运算符</h2><table>
+          <h2 id="一、算术运算符"><a href="#一、算术运算符" class="headerlink" title="一、算术运算符"></a>一、算术运算符</h2><table>
 <thead>
 <tr>
 <th>运算符</th>
@@ -454,10 +454,10 @@
 </tr>
 </tbody></table>
 <hr>
-<h2 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h2><h3 id="1-与C语言、Java等语言的区别"><a href="#1-与C语言、Java等语言的区别" class="headerlink" title="1. 与C语言、Java等语言的区别:"></a>1. 与C语言、Java等语言的区别:</h3><p>Python 使用的是：</p>
+<h2 id="二、逻辑运算符"><a href="#二、逻辑运算符" class="headerlink" title="二、逻辑运算符"></a>二、逻辑运算符</h2><h3 id="1-与C语言、Java等语言的区别"><a href="#1-与C语言、Java等语言的区别" class="headerlink" title="1. 与C语言、Java等语言的区别:"></a>1. 与C语言、Java等语言的区别:</h3><p>Python 使用的是：</p>
 <ul>
 <li><code>and</code>,<code>or</code>,<code>not</code></li>
-<li>而不是：<code>&amp;&amp;</code>,<code>||</code>,<code>!</code>（这是 C &#x2F; Java 风格）</li>
+<li>而不是：<code>&amp;&amp;</code>,<code>||</code>,<code>!</code>（这是 C &#x2F; Java 风格</li>
 </ul>
 <h3 id="2-运算优先级（从高到低）"><a href="#2-运算优先级（从高到低）" class="headerlink" title="2. 运算优先级（从高到低）"></a>2. 运算优先级（从高到低）</h3><ol>
 <li><code>not</code></li>
@@ -472,7 +472,7 @@
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="number">0</span> <span class="keyword">and</span> <span class="number">100</span>)         <span class="comment"># 0（因为0为假）</span></span><br><span class="line"><span class="built_in">print</span>(<span class="number">1</span> <span class="keyword">and</span> <span class="number">100</span>)         <span class="comment"># 100（因为1为真，所以返回第二个）</span></span><br><span class="line"><span class="built_in">print</span>([] <span class="keyword">or</span> <span class="string">&quot;Hello&quot;</span>)     <span class="comment"># &quot;Hello&quot;（因为[]为假）</span></span><br></pre></td></tr></table></figure>
 
 <hr>
-<h2 id="输入"><a href="#输入" class="headerlink" title="输入"></a>输入</h2><h3 id="1-单变量"><a href="#1-单变量" class="headerlink" title="1. 单变量"></a>1. 单变量</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">n = <span class="built_in">input</span>()          <span class="comment"># 返回字符串</span></span><br><span class="line">n = <span class="built_in">int</span>(<span class="built_in">input</span>())     <span class="comment"># 返回整数</span></span><br></pre></td></tr></table></figure>
+<h2 id="三、输入"><a href="#三、输入" class="headerlink" title="三、输入"></a>三、输入</h2><h3 id="1-单变量"><a href="#1-单变量" class="headerlink" title="1. 单变量"></a>1. 单变量</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">n = <span class="built_in">input</span>()          <span class="comment"># 返回字符串</span></span><br><span class="line">n = <span class="built_in">int</span>(<span class="built_in">input</span>())     <span class="comment"># 返回整数</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="2-多变量"><a href="#2-多变量" class="headerlink" title="2. 多变量"></a>2. 多变量</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">m, n = <span class="built_in">input</span>().split()              <span class="comment"># 返回字符串</span></span><br><span class="line">m, n = <span class="built_in">map</span>(<span class="built_in">int</span>,<span class="built_in">input</span>().split())     <span class="comment"># 返回整数</span></span><br></pre></td></tr></table></figure>
 
@@ -524,7 +524,7 @@
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">list</span>(<span class="string">&quot;abc&quot;</span>)        <span class="comment"># [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;]</span></span><br><span class="line"><span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">3</span>))     <span class="comment"># [0, 1, 2]</span></span><br></pre></td></tr></table></figure></li>
 </ol>
 <hr>
-<h2 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h2><h3 id="1-格式化输出-f-string"><a href="#1-格式化输出-f-string" class="headerlink" title="1. 格式化输出(f-string)"></a>1. 格式化输出(f-string)</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">name = <span class="string">&quot;哈基米&quot;</span></span><br><span class="line">age = <span class="number">18</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;我叫<span class="subst">&#123;name&#125;</span>，今年<span class="subst">&#123;age&#125;</span>岁&quot;</span>)</span><br></pre></td></tr></table></figure>
+<h2 id="四、输出"><a href="#四、输出" class="headerlink" title="四、输出"></a>四、输出</h2><h3 id="1-格式化输出-f-string"><a href="#1-格式化输出-f-string" class="headerlink" title="1. 格式化输出(f-string)"></a>1. 格式化输出(f-string)</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">name = <span class="string">&quot;哈基米&quot;</span></span><br><span class="line">age = <span class="number">18</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;我叫<span class="subst">&#123;name&#125;</span>，今年<span class="subst">&#123;age&#125;</span>岁&quot;</span>)</span><br></pre></td></tr></table></figure>
 
 <p>可以直接在大括号里运算：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;明年我<span class="subst">&#123;age + <span class="number">1</span>&#125;</span>岁&quot;</span>)</span><br></pre></td></tr></table></figure>
@@ -544,7 +544,7 @@
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">int</span>(<span class="string">&#x27;0x7b&#x27;</span>, <span class="number">16</span>)     <span class="comment"># 123</span></span><br><span class="line"><span class="built_in">int</span>(<span class="string">&#x27;0o173&#x27;</span>, <span class="number">8</span>)     <span class="comment"># 123</span></span><br></pre></td></tr></table></figure>
 
 <hr>
-<h2 id="循环结构"><a href="#循环结构" class="headerlink" title="循环结构"></a>循环结构</h2><p>循环结构的结构是：</p>
+<h2 id="五、循环结构"><a href="#五、循环结构" class="headerlink" title="五、循环结构"></a>五、循环结构</h2><p>循环结构的结构是：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">for 变量 in 可迭代对象:</span><br><span class="line">    循环体代码</span><br></pre></td></tr></table></figure>
 
 <blockquote>
@@ -581,7 +581,8 @@
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">5</span>):</span><br><span class="line">    <span class="keyword">if</span> i == <span class="number">10</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Loop finished normally!&quot;</span>)</span><br><span class="line"><span class="comment"># Loop finished normally!</span></span><br></pre></td></tr></table></figure></li>
 </ol>
 <hr>
-<h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h2><p>字符串<strong>不可变</strong>，可以用<code>&#39;单引号&#39;</code>、<code>&quot;双引号&quot;</code>或<code>&#39;&#39;&#39;三引号&#39;&#39;&#39;</code>（多行字符串）定义</p>
+<h2 id="六、函数"><a href="#六、函数" class="headerlink" title="六、函数"></a>六、函数</h2><hr>
+<h2 id="七、字符串"><a href="#七、字符串" class="headerlink" title="七、字符串"></a>七、字符串</h2><p>字符串<strong>不可变</strong>，可以用<code>&#39;单引号&#39;</code>、<code>&quot;双引号&quot;</code>或<code>&#39;&#39;&#39;三引号&#39;&#39;&#39;</code>（多行字符串）定义</p>
 <h3 id="1-索引（含正负索引）"><a href="#1-索引（含正负索引）" class="headerlink" title="1. 索引（含正负索引）"></a>1. 索引（含正负索引）</h3><p>正数从左数、负数从右数</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">s = <span class="string">&quot;hello&quot;</span></span><br><span class="line">s[<span class="number">0</span>]      <span class="comment"># &quot;h&quot;</span></span><br><span class="line">s[-<span class="number">1</span>]     <span class="comment"># &quot;o&quot;   </span></span><br></pre></td></tr></table></figure>
 
@@ -618,7 +619,7 @@
 <h3 id="11-判断开头-结尾：startswith-、endswith"><a href="#11-判断开头-结尾：startswith-、endswith" class="headerlink" title="11. 判断开头&#x2F;结尾：startswith()、endswith()"></a>11. 判断开头&#x2F;结尾：<code>startswith()</code>、<code>endswith()</code></h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">s = <span class="string">&quot;PythonLearning.md&quot;</span></span><br><span class="line"><span class="built_in">print</span>(s.startswith(<span class="string">&quot;Py&quot;</span>))     <span class="comment"># True</span></span><br><span class="line"><span class="built_in">print</span>(s.endswith(<span class="string">&quot;.md&quot;</span>))      <span class="comment"># True</span></span><br></pre></td></tr></table></figure>
 
 <hr>
-<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p><code>list</code>是一种<strong>有序、可变</strong>的序列结构，用<code>[]</code>表示</p>
+<h2 id="八、列表"><a href="#八、列表" class="headerlink" title="八、列表"></a>八、列表</h2><p><code>list</code>是一种<strong>有序、可变</strong>的序列结构，用<code>[]</code>表示</p>
 <h3 id="1-创建"><a href="#1-创建" class="headerlink" title="1. 创建"></a>1. 创建</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">a = <span class="built_in">list</span>(<span class="string">&quot;abc&quot;</span>)     <span class="comment"># [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;]</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="2-索引（含正负索引）"><a href="#2-索引（含正负索引）" class="headerlink" title="2. 索引（含正负索引）"></a>2. 索引（含正负索引）</h3><p>正数从左数、负数从右数</p>
@@ -664,7 +665,7 @@
 <h3 id="6-排序与反转"><a href="#6-排序与反转" class="headerlink" title="6. 排序与反转"></a>6. 排序与反转</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = [<span class="number">3</span>, <span class="number">1</span>, <span class="number">4</span>, <span class="number">2</span>]</span><br><span class="line">a.sort()                   <span class="comment"># 原地排序</span></span><br><span class="line">a.sort(reverse = <span class="literal">True</span>)     <span class="comment"># 降序</span></span><br><span class="line"><span class="built_in">sorted</span>(a)                  <span class="comment"># 返回新排序列表，原列表不变</span></span><br><span class="line">a.reverse()                <span class="comment"># 原地倒序</span></span><br></pre></td></tr></table></figure>
 
 <hr>
-<h2 id="元组"><a href="#元组" class="headerlink" title="元组"></a>元组</h2><p><code>tuple</code>是一种<strong>有序、不可变</strong>的序列结构，用<code>()</code>表示</p>
+<h2 id="九、元组"><a href="#九、元组" class="headerlink" title="九、元组"></a>九、元组</h2><p><code>tuple</code>是一种<strong>有序、不可变</strong>的序列结构，用<code>()</code>表示</p>
 <h3 id="1-创建-1"><a href="#1-创建-1" class="headerlink" title="1. 创建"></a>1. 创建</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">t = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)</span><br><span class="line">t = <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span></span><br><span class="line">t = (<span class="number">42</span>,)            <span class="comment"># 单元素元组，一定要有逗号</span></span><br><span class="line">t = ()               <span class="comment"># 空元组</span></span><br><span class="line">t = <span class="built_in">tuple</span>(<span class="string">&quot;abc&quot;</span>)     <span class="comment"># (&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;)</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="2-索引（含正负索引）-1"><a href="#2-索引（含正负索引）-1" class="headerlink" title="2. 索引（含正负索引）"></a>2. 索引（含正负索引）</h3><p>正数从左数、负数从右数</p>
@@ -688,7 +689,7 @@
 <p>用列表：当你需要改</p>
 </blockquote>
 <hr>
-<h2 id="字典"><a href="#字典" class="headerlink" title="字典"></a>字典</h2><p><code>dict</code>每一对<code>&quot;键: 值&quot;</code>叫一个<strong>项（item）</strong>，键必须唯一，值可以重复</p>
+<h2 id="十、字典"><a href="#十、字典" class="headerlink" title="十、字典"></a>十、字典</h2><p><code>dict</code>每一对<code>&quot;键: 值&quot;</code>叫一个<strong>项（item）</strong>，键必须唯一，值可以重复</p>
 <p>它的结构是：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">my_dict = &#123;</span><br><span class="line">    <span class="string">&quot;name&quot;</span>: <span class="string">&quot;哈基米&quot;</span>,</span><br><span class="line">    <span class="string">&quot;age&quot;</span>: <span class="number">18</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
@@ -721,6 +722,9 @@
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> k, v <span class="keyword">in</span> d.items():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;k&#125;</span> -&gt; <span class="subst">&#123;v&#125;</span>&quot;</span>)   </span><br><span class="line"></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;  </span></span><br><span class="line"><span class="string">apple -&gt; 3</span></span><br><span class="line"><span class="string">banana -&gt; 5</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="7-拷贝"><a href="#7-拷贝" class="headerlink" title="7. 拷贝"></a>7. 拷贝</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">d1 = &#123;<span class="string">&quot;apple&quot;</span>: <span class="number">3</span>, <span class="string">&quot;banana&quot;</span>: <span class="number">5</span>&#125;</span><br><span class="line">d2 = d1.copy()</span><br><span class="line">d2[<span class="string">&quot;apple&quot;</span>] = <span class="number">9</span>     <span class="comment"># 原字典不变</span></span><br><span class="line"><span class="comment"># d1 = &#123;&#x27;apple&#x27;: 3, &#x27;banana&#x27;: 5&#125;, d2 = &#123;&#x27;apple&#x27;: 9, &#x27;banana&#x27;: 5&#125;</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="十一、集合"><a href="#十一、集合" class="headerlink" title="十一、集合"></a>十一、集合</h2>
       
     </div>
 
