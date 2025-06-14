@@ -1198,7 +1198,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #181a0a;
+  background: #618c8a;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2570,4 +2570,12 @@ ul.breadcrumb li + li:last-child {
 }
 .search-popup .popup-icon {
   display: none !important;
+}
+.post-block {
+  border: 1.5px solid #7f3fbf;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0,255,136,0.2);
+  transition: transform 0.3s ease;
 }
