@@ -1198,7 +1198,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #916e1b;
+  background: #0a0d75;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2570,56 +2570,4 @@ ul.breadcrumb li + li:last-child {
 }
 .search-popup .popup-icon {
   display: none !important;
-}
-/* 卡片视觉：红边框 + 炽热 hover */
-.post-block {
-  border: 2px solid #d50000;
-  border-radius: 12px;
-  padding: 20px;
-  margin-bottom: 30px;
-  box-shadow: 0 4px 12px rgba(213,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.post-block:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(255,76,76,0.4);
-}
-/* 正文字体样式优化 */
-.post-body {
-  font-size: 18px;
-  line-height: 1.8;
-  font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  color: #212121;
-}
-/* 代码区：深色背景 + 金红标题 */
-.highlight {
-  background: #2b2b2b;
-  border-radius: 10px;
-  padding: 16px;
-  overflow-x: auto;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #fc0;
-}
-/* 导航栏：红黑渐变 + 高亮 hover */
-.site-nav {
-  background: linear-gradient(to right, #d50000, #880e4f);
-  color: #fff;
-}
-.site-nav .menu-item a {
-  color: #fff;
-  font-weight: bold;
-  transition: color 0.3s ease, border-bottom 0.2s ease;
-}
-.site-nav .menu-item a:hover {
-  color: #fc0;
-  border-bottom: 2px solid #fc0;
-}
-/* Tag 标签颜色改为暗红系 */
-.tag-cloud a {
-  color: #c62828;
-}
-.tag-cloud a:hover {
-  color: #ff8a65;
-  text-decoration: underline;
 }
